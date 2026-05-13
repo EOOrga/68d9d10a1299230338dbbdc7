@@ -1,0 +1,13 @@
+App name
+BENOIT OLIVIER
+
+Short description
+Manage revenue, visitors, tasks, and compliance records in a local operations workspace.
+
+Full description
+BENOIT OLIVIER helps small teams keep daily business operations organized without accounts or cloud sync. The app brings revenue tracking, visitor oversight, task follow-up, and compliance reporting into one Android workspace.
+
+Use the overview to monitor revenue progress, open tasks, active visitors, and compliance readiness. Add local records as the day moves, review visitor details, close tasks, and keep control checks visible for the next handoff.
+
+Category
+Productivity
