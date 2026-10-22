@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 const _brandName = 'BENOIT OLIVIER';
 const _primaryNavy = Color(0xFF06111F);
-const _electricCyan = Color(0xFF04D9E8);
+const _electricCyan = Color(0xFF2255FC);
 const _success = Color(0xFF2DD4BF);
 const _warning = Color(0xFFF59E0B);
 const _danger = Color(0xFFEF4444);
@@ -459,7 +459,7 @@ class OperationsState extends ChangeNotifier {
     tasks = [
       OpsTask(
         id: 't1',
-        title: 'Reconcile daily cash variance',
+        title: 'BENOIT OLIVIER',
         owner: 'Finance',
         area: 'Revenue',
         dueDate: now.add(const Duration(days: 1)),
