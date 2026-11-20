@@ -277,6 +277,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "$PLAY_KEY" ]; then echo "Missing PLAY_STORE_JSON_KEY secret"; exit 1; fi
+          if [ "$PLAY_TRACK" = "production" ]; then echo "Draft release cannot use the production track; use internal, alpha, or beta"; exit 1; fi
           LISTING_ARGS=()
           if [ "$UPLOAD_LISTING" = "false" ]; then
             LISTING_ARGS=(--skip_upload_metadata true --skip_upload_images true --skip_upload_screenshots true)
